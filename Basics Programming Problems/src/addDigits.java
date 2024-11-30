@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class addDigits {
-  static int addDigits(int num){
+  static int addDigit(int num){
     int totalSum = 0;
     while (num>9){
       // reset total sum for each iteration
@@ -19,7 +19,8 @@ public class addDigits {
     System.out.println("Enter the number");
     Scanner scanner = new Scanner(System.in);
     int num = scanner.nextInt();
-    int sum = addDigits(num);
+    int sum = addDigit(num);
     System.out.println("the sum of the digits is "+sum);
+    scanner.close();
   }
 }
