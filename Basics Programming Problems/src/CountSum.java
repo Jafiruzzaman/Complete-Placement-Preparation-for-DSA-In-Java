@@ -17,5 +17,6 @@ public class CountSum {
     int num = scanner.nextInt();
     int result = countSum(num);
     System.out.println("The sum of the digits is: " + result);
+    scanner.close();
   }
 }

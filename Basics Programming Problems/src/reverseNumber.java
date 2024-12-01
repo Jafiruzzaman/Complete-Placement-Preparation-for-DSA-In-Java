@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class reverseNumber {
-  static int reverseNumber(int num){
+  static int reverseNumbers(int num){
     int reversedNum = 0;
     while(num!=0){
       reversedNum = reversedNum * 10 + num % 10;
@@ -14,7 +14,8 @@ public class reverseNumber {
     System.out.println("Enter a number");
     Scanner scanner = new Scanner(System.in);
     int num = scanner.nextInt();
-    int reversedNum = reverseNumber(num);
+    int reversedNum = reverseNumbers(num);
     System.out.println("the reverse number is " + reversedNum);
+    scanner.close();
   }
 }

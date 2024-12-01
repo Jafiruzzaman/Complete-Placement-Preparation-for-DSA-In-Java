@@ -13,5 +13,6 @@ public class leapYear {
     int year = sc.nextInt();
     boolean result = isLeapYear(year);
     System.out.println("the year is " + year+" is a leap year is it "+result);
+    sc.close();
   }
 }
