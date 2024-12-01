@@ -18,5 +18,6 @@ public class patternProblemTwo {
       }
       System.out.println();
     }
+    sc.close();
   }
 }
