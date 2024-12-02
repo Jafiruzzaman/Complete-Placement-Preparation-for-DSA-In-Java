@@ -14,5 +14,6 @@ public class patternProblem {
       }
       System.out.println();
     }
+    sc.close();
   }
 }
